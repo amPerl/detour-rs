@@ -142,6 +142,7 @@ macro_rules! static_detour {
     static_detour!(@argument_names ($label) ($($input)*)(
       __arg_0  __arg_1  __arg_2  __arg_3  __arg_4  __arg_5  __arg_6
       __arg_7  __arg_8  __arg_9  __arg_10 __arg_11 __arg_12 __arg_13
+      __arg_14 __arg_15
     )($($token)*)());
   };
   (@argument_names
